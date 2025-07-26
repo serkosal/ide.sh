@@ -5,6 +5,11 @@ IDE.sh is the BASH script, which creates tmux session with predefined layout to 
 
 ## Installation
 
+  - install tmux, for debian:
+    ```bash
+    sudo apt install tmux
+    ```
+
   - create and go to directory for user's scripts if it doesn't exists:
     ```bash
     mkdir -p ~/scripts && cd ~/scripts
