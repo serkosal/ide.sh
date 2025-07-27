@@ -26,7 +26,7 @@ tmux split-window -h -p 90 -c "$DIR" -t "$SESSION:0"
 
 # launch some commands
 tmux send-keys -t "$SESSION:0.0" \
-  "tree -C -I '__pycache__|.venv|node_modules' | less" C-m
+  "tree -Ca --gitignore -I '.git|.vscode' | less" C-m
 
 
 # Attach upper-right panel
